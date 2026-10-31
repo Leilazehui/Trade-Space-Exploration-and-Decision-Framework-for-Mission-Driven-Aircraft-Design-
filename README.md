@@ -1,23 +1,14 @@
 # README
-## Background of Mission study
-According to the competition rules of the AIAA DBF 2026, the flight objective of this year was to design, build, and test a banner towing bush plane, conduct charter flights to pay for the airplane in Mission 2, and start a banner towing business which was simulated in Mission 3. 
+## Background of Mission study (Manuscript under preparation)
+This paper establishes the application of mission-driven aircraft design decision framework to support aircraft conceptual and preliminary design which involves complex trade-offs among performance, payload capability, operational requirements, and development constraints. Traditional conceptual design approaches often evaluate these factors manually, limiting systematic assessment and design-space of engineering trade-offs during early-stage decision making and testing. 
 
-- Mission 1 (M1) is a delivery flight without a payload, 3 laps in a 5-minute time window.
+This framework evaluate and rank candidate aircraft configurations according to overall system effectiveness under multiple operational constraints through a systematic assessment of engineering trade-offs during early-stage decision making by an automated nested grid-search algorithm to explore a large design space covering aircraft geometry, payload configurations, energy storage potions, and mission-specific parameters, with supports of data of empirical weight estimation, battery sizing, ground operation modelling, and cruise performance prediction using classical drag-polar formulations. 
 
-- Mission 2 (M2) is a chartered flight that includes passengers and cargo, where the score will be added up and charged according to the number of passengers and cargoes carried.
+Application of the framework demonstrated that configurations achieving the highest theoretical mission scores were not necessarily the most practical engineering solution when manufacturing complexity, testing opportunities and development schedule constraints were considered. The analysis concluded a lightweight configuration significantly reduced implementation risks and development effort while achieving comparable mission performance. 
 
-- Mission 3 (M3) is a launch flight that demonstrates the stowing, towing, deployment and release of the onboard banner. 
+Validation against pre-competition flight-test data and operational results showed good agreement with predicted Mission performance. 
 
-- Ground Mission (GM) is a timed demonstration of the aircraft assembly, payload installation, banner mechanism installation, and flight control checks. 
 
-## Purpose of MDO
-- Every year, DBF student teams are required to design an aircraft to achieve 3 milstones: Design proposal by the end of every October, Design report by the end of the next February, and fly-off at US competition flight sites. Previous HKU DBF teams adapted iterative end-to-end design, fabricationan and testing approach to find out the optimized aircraft design and predicted competition score. However, under tight time availabilty and limited financial support and man power, the team is difficult to try as many types of design as they could.
-
-- A parametric **Multidisciplinary Optimization (MDO)** framework was developed in MATLAB using a deterministic grid-search approach to explore the design space systematically to obtain the predicted performance of the preliminary design that maximizes mission score while satisfying aerodynamic and performance constraints. With this model, teams can simulate hundreds to thousands cases of different design configuration of the aircraft, and select the optimized design for the aircraft configuration in one go. Therefore, the time and cost required for the iterative building and testing stage will be greatly reduced, enhancing team's working efficiency.
-
-- Several assumptions for the battery selection and empty weight of the aircraft under different conditions were made to provide a realistic scenario in the simulation, with an assumed velocity range based on previous aircraft performances. Then the flight path was estimated by examining the flight motion for three stages: take-off/climb, cruising, landing. 
-
-- The highest possible score for each individual mission was estimated and was compared with the optimized score case where all missions’ requirements were considered to determine the highest score case for the GRIFFIN. For Gound Mission (GM), the time for the fastest possible case was estimated as 25 seconds, based on experience from the team.
 
 ## MDO architecture for aircraft design optimization
 <p align="center">
