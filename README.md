@@ -21,5 +21,5 @@ According to the competition rules of the AIAA DBF 2026, the flight objective of
 
 ## MDO architecture for aircraft design optimization
 <p align="center">
-  <img src="https://github.com/Leilazehui/Multidisciplinary-Optimization-Framework-for-AIAA-DBF-2026-Mission-Scoring/blob/main/MDO_Flowchart.png"  with=50%  />
+  <img src="https://github.com/Leilazehui/Trade-Space-Exploration-and-Decision-Framework-for-Mission-Driven-Aircraft-Design-/blob/main/Database/MDO_Flowchart.png"  with=50%  />
   <p/>
